@@ -6,7 +6,8 @@ interface info{
 
 interface teacherinfo extends info {
      salary:number,
-     post:string
+     post:string,
+     promotionDate:number
 }
 
 let teacher:teacherinfo={
@@ -15,6 +16,7 @@ let teacher:teacherinfo={
     college:"SVVV",
     salary:39520,
     post:"ass prof",
+    promotionDate:25
 }
 
 let student:info={

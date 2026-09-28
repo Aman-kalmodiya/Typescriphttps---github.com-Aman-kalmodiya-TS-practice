@@ -6,6 +6,7 @@ let teacher = {
     college: "SVVV",
     salary: 39520,
     post: "ass prof",
+    promotionDate: 25
 };
 let student = {
     name: "Aman",
