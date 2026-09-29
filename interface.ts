@@ -22,5 +22,5 @@ let teacher:teacherinfo={
 let student:info={
      name:"Aman",
     age:22,
-    college:"SVVV",
+    college:"Svvv",
 }
