@@ -11,6 +11,6 @@ let teacher = {
 let student = {
     name: "Aman",
     age: 22,
-    college: "SVVV",
+    college: "Svvv",
 };
 //# sourceMappingURL=interface.js.map
