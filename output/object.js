@@ -1,4 +1,3 @@
-"use strict";
 // var userData:
 //    {name:string,
 //     age:number,
@@ -8,7 +7,6 @@
 //     age:22,
 //     city:"Indore"
 // }
-Object.defineProperty(exports, "__esModule", { value: true });
 //agar fix naho konsi konsi value aa skti he to 
 // var userData :{
 //     [key:string]:string|number|undefined
@@ -31,6 +29,7 @@ var empData = {
     }
 };
 console.log(empData);
+export {};
 // output=>{
 //   name: 'AMAN',
 //   age: 21,

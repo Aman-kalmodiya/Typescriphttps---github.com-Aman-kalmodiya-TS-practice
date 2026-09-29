@@ -1,6 +1,4 @@
-"use strict";
 // enum => A data type allows you to define a set of named constant
-Object.defineProperty(exports, "__esModule", { value: true });
 var member;
 (function (member) {
     member["student"] = "Aman";
@@ -20,4 +18,5 @@ var roles;
     roles[roles["software_developer"] = 3] = "software_developer";
 })(roles || (roles = {}));
 console.log(roles.QA);
+export {};
 //# sourceMappingURL=enum.js.map

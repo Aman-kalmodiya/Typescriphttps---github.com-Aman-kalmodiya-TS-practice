@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let teacher = {
     name: "Anil",
     age: 40,
@@ -13,4 +11,5 @@ let student = {
     age: 22,
     college: "Svvv",
 };
+export {};
 //# sourceMappingURL=interface.js.map

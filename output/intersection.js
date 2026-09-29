@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var Aman = {
     name: "Aman",
     college: "Svvv",
@@ -18,4 +16,5 @@ var userData = {
     name: "Aman"
 };
 console.log(Aman);
+export {};
 //# sourceMappingURL=intersection.js.map
