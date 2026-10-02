@@ -30,9 +30,9 @@ class teacher extends Auth{
 
 }
 
-var newStd = new student();
+var newStdent = new student();
 
-console.log(newStd.result(32))
+console.log(newStdent.result(32))
 
 var secStd = new student();
 
