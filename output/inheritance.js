@@ -1,33 +1,19 @@
-class Auth {
-    login(name, password) {
-        if (name && password) {
-            return "student is loged in";
-        }
-        else {
-            return "no student found";
-        }
+// class Auth {
+//     login(name:string,password:string){
+class clgData {
+    Uname;
+    clgName;
+    location;
+    fees;
+    constructor(cName, clgName, location, fees) {
+        this.Uname = cName;
+        this.clgName = location;
+        this.location = location;
+        this.fees = fees;
     }
 }
-class student extends Auth {
-    result(marks) {
-        if (marks < 33) {
-            return "fail";
-        }
-        else {
-            return "Pass";
-        }
-    }
-}
-class teacher extends Auth {
-    subject() {
-        return "ML and DL";
-    }
-}
-var newStd = new student();
-console.log(newStd.result(32));
-var secStd = new student();
-console.log(secStd.login("aman", "123"));
-var newTeacher = new teacher();
-console.log(newTeacher.subject());
+var clg1 = new clgData("IIT Bombay", "IST", "indore", 150200);
+var clg2 = new clgData("SVVV", "SVITS", "indore", 180000);
+console.log(clg1, clg2);
 export {};
 //# sourceMappingURL=inheritance.js.map

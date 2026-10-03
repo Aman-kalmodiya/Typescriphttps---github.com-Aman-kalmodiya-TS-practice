@@ -1,5 +1,5 @@
 console.log("dom set up completed");
-var headerText = document.querySelector("h1");
-console.log(headerText.innerText);
-
+var headerText = document.querySelectorAll("h1");
+console.log(headerText);
+export {};
 //# sourceMappingURL=dom.js.map
