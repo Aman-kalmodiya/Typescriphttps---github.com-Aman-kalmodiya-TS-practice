@@ -4,7 +4,8 @@
 interface clg{
     name:string,
     student:number,
-    location:string
+    location:string,
+    branch:string
 }
 
 // Partial => Data optional ho jata he 
@@ -19,7 +20,8 @@ let clg3:Partial <clg>={
 let reqClg :Required<clg>={
     name:"IIT",
     student:22,
-    location:"Indore"
+    location:"Indore",
+    branch:"CS"
 }
 
 // Readonly => can not be change after creation or can not define
@@ -30,3 +32,14 @@ let reqClg5:Pick<clg ,'name'|'location' >={
     name:"IIT",
     location:"Indore"
 }
+
+// omit => jisko nikalna he usko nikal skte he 
+
+let clg5:Omit<clg,'branch'> ={
+    name:"SGSITS",
+    location:"indore",
+    student:1212,
+    
+}
+
+// Exclude => 
